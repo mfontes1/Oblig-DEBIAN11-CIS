@@ -20,7 +20,6 @@
             name: usb-storage
             state: absent
         when: ansible_connection != 'docker'
-<<<<<<< HEAD
 #  notify: Update_Initramfs
 =======
   #notify: Update_Initramfs
