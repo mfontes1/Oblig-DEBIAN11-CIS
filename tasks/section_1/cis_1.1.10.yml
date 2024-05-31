@@ -20,7 +20,11 @@
             name: usb-storage
             state: absent
         when: ansible_connection != 'docker'
+<<<<<<< HEAD
 #  notify: Update_Initramfs
+=======
+  #notify: Update_Initramfs
+>>>>>>> d49a7f605fe5bd12073aee918f9d5d43785b3b9e
   when:
       - debian11cis_rule_1_1_10
       - not debian11cis_allow_usb_storage
